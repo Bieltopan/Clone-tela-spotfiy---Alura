@@ -1,6 +1,9 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/fundo3.jpg);
     font-family: var(--font-dm-sans);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .sidebar {
@@ -187,7 +190,7 @@ body {
 }
 
 .disclaimer-premium{
-    background: linear-gradient(to right,#011806,#035324,#20b459, #6ba883 );
+    background: linear-gradient(to right,#081a0c,#608d0d,#99b420, #01cf54 );
     position: fixed;
     display: flex;
     justify-content: space-between;  
