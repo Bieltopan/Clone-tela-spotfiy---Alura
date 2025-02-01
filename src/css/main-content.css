@@ -15,7 +15,7 @@
   align-items: center;
   margin: 12px;
   border-radius: 8px;
-  background-color: #121212;
+  background-color: #3c7c78b2;
   padding: 12px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .header__navigation .navigation .arrow-left {
-  margin-right: 1.25rem;
+  margin-right: 1.8rem;
 }
 
 .arrow-left,
@@ -34,10 +34,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: var(--bg-icon);
-  background-color: var(--bg-arrow-color);
+  background-color: #4c3734;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -54,14 +53,18 @@
   width: 364px;
   height: 48px;
   margin-left: 8px;
-  background-color: #242424;
+  background-color: #4c3734;
   border-radius: 500px;
-  border: 1px solid transparent;
+  border: 1px groove #e9cacc;
+}
+
+.header__search ::placeholder {
+  color: #e9cacccc;
 }
 
 .header__search img {
-  width: 16px;
-  height: 16px;
+  width: 25px;
+  height: 25px;
   margin-left: 10px;
 
 }
@@ -70,7 +73,7 @@
   background: transparent;
   border: none;
   padding: 0px 100px 0 12px;
-  color: #fff;
+  color: #f3dbcb;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -78,7 +81,7 @@
 }
 
 .header__login .subscribe {
-  color: #a7a7a7;
+  color: #f3dbcb;
   font-size: 16px;
   font-weight: 700;
   background-color: transparent;
@@ -88,12 +91,18 @@
 .header__login .login {
   width: 100px;
   height: 48px;
-  color: #0ac95a;
+  color: #f3dbcb;
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
-  background-color: #000;
-  border: 1px solid #0ac95a;
+  background-color: #4c3734;
+  border: 1px groove #e9cacc;
+}
+
+.header__login .login:hover {
+  background-color: #362b2b;
+  transition: 0.6s;
+  ;
 }
 
 
@@ -102,7 +111,7 @@
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
-  background-color: #121212;
+  background-color: #15615cb2;
 
 }
 
@@ -111,7 +120,7 @@
 }
 
 .playlist #greeting {
-  color: #a7a7a7;
+  color: #f3dbcb;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 48px;
@@ -119,7 +128,7 @@
 }
 
 .playlist .greeting-subtitle {
-  color: #a7a7a7;
+  color: #f3dbcb;
   font-size: 24px;
   font-weight: 700;
 }
@@ -157,6 +166,7 @@
 }
 
 .cards {
+  border: 1px groove #e9cacc;
   position: relative;
   width: 220px;
   height: 200px;
@@ -167,70 +177,70 @@
 .cards span {
   padding: 16px;
   position: absolute;
-  color: #fff;
+  color: #f3dbcb;
   font-size: 24px;
   font-weight: 700;
 }
 
 /* COLOR CARDS */
 .card1 {
-  background-color: rgb(0, 100, 80);
+  background-color: rgb(2, 90, 32);
 }
 
 .card2 {
-  background-color: rgb(132, 0, 231);
+  background-color: rgb(78, 2, 136);
 }
 
 .card3 {
-  background: rgb(30, 50, 100);
+  background: rgb(9, 36, 107);
 }
 
 .card4 {
-  background: rgb(140, 25, 50);
+  background: rgb(148, 10, 40);
 }
 
 .card5 {
-  background: rgb(232, 17, 91);
+  background: rgb(187, 23, 80);
 }
 
 .card6 {
-  background: rgb(83, 122, 161);
+  background: rgb(33, 72, 112);
 }
 
 .card7 {
-  background: rgb(142, 102, 172);
+  background: rgb(112, 62, 150);
 }
 
 .card8 {
-  background: rgb(20, 138, 8);
+  background: rgb(32, 231, 10);
 }
 
 .card9 {
-  background: rgb(30, 50, 100);
+  background: rgb(82, 131, 255);
 }
 
 .card10 {
-  background: rgb(233, 20, 41);
+  background: rgb(255, 1, 26);
 }
 
 .card11 {
-  background: rgb(80, 55, 80);
+  background: rgb(20, 16, 20);
 }
 
 .card12 {
-  background: rgb(216, 64, 0);
+  background: rgb(233, 79, 13);
 }
 
 .card13 {
-  background: rgb(186, 93, 7);
+  background: rgb(233, 141, 54);
 }
 
 .card14 {
-  background: rgb(0, 30, 80);
+  background: rgb(1, 16, 41);
 }
 
 .card15 {
-  background: rgb(60, 30, 80);
+  background: rgb(32, 1, 53);
 }
 
 /* FIM COLOR CARDS */
@@ -264,7 +274,7 @@
 }
 
 .artist-card {
-  background: #181818;
+  background: #4c3734;
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
@@ -276,7 +286,7 @@
 }
 
 .artist-card:hover {
-  background-color: #252525;
+  background-color: #362b2b;
 }
 
 .card-img {
@@ -298,7 +308,7 @@
 .card-text {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #f3dbcb;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -334,11 +344,12 @@
   right: 10px;
   top: 120px;
   padding: 18px;
-  background-color: #1db954;
+  background-color: #00bd09;
   border-radius: 100%;
-  font-size: 14px;
+  font-size: 15px;
   opacity: 0;
-  transition: all ease 0.4s;
+  transition: all ease 0.7s;
+
 }
 
 .artist-card:hover .play .fa-play {

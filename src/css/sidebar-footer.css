@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/fundo5.jpg);
+    background-image: url(../imagens/fundo6.jpg);
     font-family: var(--font-dm-sans);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,14 +16,13 @@ body {
 }
 
 .sidebar_navigation {
-    background-color: #121212;
+    background-color: #3c7c78b2;
     border-radius: 8px;
     padding: 16px 0 0 16px;
     /* 16px top, 0 right, 0 bottom, 16px left */
 }
 
 .sidebar_navigation .logo {
-    background-color: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -48,7 +47,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #0ac95a;
+    color: #f3dbcb;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
@@ -57,13 +56,13 @@ body {
 
 
 .library {
-    background-color: #121212;
+    background-color: #3c7c78b2;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #0ac95a;
+    color: #f3dbcb;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -80,7 +79,7 @@ body {
 .library .library__button {
     display: flex;
     margin-right: 10px;
-    color: #0ac95a;
+    color: #f3dbcb;
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -109,13 +108,14 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #0ac95a;
+    background-color: #4c3734;
+    color: #f3dbcb;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
     border-radius: 10px;
+    border:1px groove #e9cacc;
 
 }
 
@@ -127,7 +127,7 @@ body {
 
 .section-playlist__content .text {
     padding-bottom: 14px;
-    color: #fff;
+    color: #f3dbcb;
     
 
 }
@@ -145,8 +145,8 @@ body {
 .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #121212;
-    color: #0ac95a;
+    background-color: #3c7c78e1;
+    color: #f3dbcb;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -154,17 +154,20 @@ body {
     text-transform: none;
     padding: 10px;
     margin-top: 12px;
-    border: 1px solid #0ac95a;
+    border: 1px groove #e9cacc;
     width: 113px;
 }
-
+.section-playlist__content .section-playlist__button:hover{
+    background-color: #15615ce1;
+    transition: 0.6s;
+}
 .sidebar .cookies {
     margin: 25px 20px;
 
 }
 
 .sidebar .cookies a {
-    color: #0ac95a;
+    color: #f3dbcb;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -176,9 +179,9 @@ body {
 }
 
 .languages .languages__button{
-    background-color: transparent;
-    border: 1px solid #878787;
-    color: #0ac95a;
+    background-color: #4c3734;
+    border: 1px solid #e9cacc;
+    color: #f3dbcb;
     cursor: pointer;
     text-align: center;
     font-weight: bold;
@@ -188,9 +191,13 @@ body {
     border-radius: 20px;
 
 }
+.languages .languages__button:hover{
+    background-color: #362b2b;
+    transition: 0.6s;
+}
 
 .disclaimer-premium{
-    background: linear-gradient(to right,#081a0c,#608d0d,#99b420, #01cf54 );
+    background: linear-gradient(to right,#1a978fb2,#0f5752b2,#362b2bb2,#362b2bb2,#e9caccb2,#cf9a9db9);
     position: fixed;
     display: flex;
     justify-content: space-between;  
@@ -198,13 +205,14 @@ body {
     bottom: 0;
     right: 0;
     padding: 15px 40px;
+    border-top: 1px groove #e9cacc ;
 }
 .disclaimer-premium .text{
     flex-shrink: 0;
 }
 
 .disclaimer-premium .disclaimer-premium__title{
-    color: #fff;
+    color: #f3dbcb;
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
@@ -212,19 +220,24 @@ body {
 }
   
 .disclaimer-premium .disclaimer-premium__subtitle{
-    color: #fff;
+    color: #f3dbcb;
     font-weight: 500;
     font-size: 16px;
     padding-bottom: 10px;
 }
 
 .disclaimer-premium button{
-    background-color: #000;
-    border: 2px solid #05441f;
-    color: #0ac95a;
+    background-color: #4c3734;
+    border: 1px groove #e9cacc;
+    color: #f3dbcb;
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
     border-radius: 30px;
     flex-shrink: 0;
+}
+.disclaimer-premium button:hover{
+   background-color:  #362b2b;
+   transition: 0.6s;
+
 }
